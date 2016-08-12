@@ -1,0 +1,33 @@
+/* nudge content from being covered by fixed top navbar */
+body {
+  padding-top: 50px;
+}
+
+/* change hover background color of nav links */
+.navbar-nav>li:hover {
+  background-color: red;
+}
+
+#site-header {
+  background-color: #efefef;
+  height:2000px;
+}
+
+/* center copyright text in footer */
+#site-copyright-text {
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+
+  /* center the nav links on navbar */
+  .navbar-nav,
+  .navbar-nav>li {
+    display: inline-block;
+    float: none;
+  }
+  #site-menu {
+    text-align: center;
+  }
+
+} /* @media (min-width: 769px) */

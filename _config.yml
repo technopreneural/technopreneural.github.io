@@ -13,17 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: The Next Iteration
+email: technopreneural@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  Welcome to our user / organization page. We have a very diverse range of
+  interests and an enormous appetite for the new, the obscure, and the alternate
+  possibilities. Join us as we explore ideas, technologies, platforms,
+  techniques, code, some of their potentially cool (ish) applications, and
+  other possibilities.
+baseurl: ""
+url: "https://technopreneural.github.io"
 
 # Build settings
-markdown: kramdown
-theme: minima
+
+# Menu pages --- anchor links to page sections
+links:
+    - title: Home
+      url: /#test
+    - title: Projects
+      url: /#projects
+    - title: About
+      url: /#about
+    - title: Contact
+      url: /#contact
